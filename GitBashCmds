@@ -1,0 +1,17 @@
+Git Bash Cmds :
+
+1. touch file_name create file 
+2. echo "content" >> fileName
+3. cd NAME-OF-DIRECTORY	Go into a directory to work in it
+4. cd ..	Go back one directory
+5. ls	List what’s in the current directory
+6. ls a*	List what’s in the current directory that starts with a
+7. ls *.md	List what’s in the current directory that ends with .md
+8. mkdir NAME-OF-YOUR-DIRECTORY	Create a new directory
+9. cat README.md	Display the contents of a text file you created previously
+10.pwd	Show the current directory
+11.clear	Clear the shell window
+
+12.vim filename open file in vim editor
+   -> press i to insert content
+   -> press esc then :x and then enter to exit and save the modified changes 
