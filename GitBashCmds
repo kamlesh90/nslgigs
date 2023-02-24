@@ -21,9 +21,40 @@ Git Bash Cmds :
 15. git status 
 16. git add or git add .
 17. git commit -m "msg"
-18. git log
-19. git diff to know the difference between local file and commited file 
+18. git log     come out from git log -> press q
+19. git diff -> to know the difference between local file and commited file come out from git log -> press q
 
 20. git remote add origin https://github.com/kamlesh90/nslgigs.git  
 
 21. git remote -> know the name of remote repository
+22. git remote rm origin
+23. git push origin master <remote url> for fisrt time
+
+24. git checkout -b 
+25. git merge
+26. git branch -D -> to delete branch switch to other branch and then delete suppose you want to delete feature/circle_change then switch to main and then delete feature/circle_change
+27. git branch
+28. git rm --cached <file>... to unstage
+
+*****************************************************************************************
+*****************************************************************************************
+or create a new repository on the command line
+************************************************
+echo "# abc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kamlesh90/abc.git
+git push -u origin main
+---------------------------------------------------------
+- or push an existing repository from the command line --
+---------------------------------------------------------
+git remote add origin https://github.com/kamlesh90/abc.git
+git branch -M main
+git push -u origin main
+…or import code from another repository
+
+To push the current branch and set the remote as upstream, use
+    git push --set-upstream origin feature/circle_change
+ 
