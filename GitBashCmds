@@ -50,9 +50,9 @@ git rm --cached fileName -> removed only from stagging area
 28. git rm --cached <file>... to unstage
 
 *****************************************************************************************
-*****************************************************************************************
-or create a new repository on the command line
-************************************************
+		*****************************************************
+		**	or create a new repository on the command line ** 
+		*****************************************************
 echo "# abc" >> README.md
 git init
 git add README.md
@@ -71,3 +71,21 @@ git push -u origin main
 To push the current branch and set the remote as upstream, use
     git push --set-upstream origin feature/circle_change
  
+=================================================================================================================
+       *************************
+	   *************************
+	   ** shortcuts of github **
+	   *************************
+	   *************************
+	   
+1. press ? to show all shortcuts make sure you press ? only in lenovo for ? need to press "shift+?" 
+
+2. we can point out particular code or line by pressing the line number show it will point out the like below url so others can directly 
+   focus on the same thing not all over the github 
+   and if more lines or there then we press "shift + line"
+https://github.com/kamlesh90/nslgigs/blob/master/GitBashCmds#L42
+https://github.com/kamlesh90/nslgigs/blob/master/GitBashCmds#L42-L50
+
+3. blame
+   by using this function we can see the last commit and and changes as per that commit green shows new stuff added and red shows stuff 
+   deleted 
