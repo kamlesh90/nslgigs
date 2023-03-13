@@ -29,12 +29,25 @@ Project Annotations
 @RequiredArgsConstructor -> at compile time create the constructor with lombok  and also for final fields we can create constructor via using this annotation. 
                             If we wanted to annotate the Lombok-generated constructor, we would have to pass the annotation with an onConstructor parameter of the @AllArgsConstructor
 			    @RequiredArgsConstructor(onConstructor = @__(@Autowired))
+				
+				
+	XXXXXXXXXXXXXXXXXXXXXXXXX
+	XX                     XX
+	XX Testing Annotations XX
+	XX                     XX
+	XXXXXXXXXXXXXXXXXXXXXXXXX
+	
+	-> on top of the main SpringBootTest class
+1. @SpringBootTest  
+2. @Testcontainers 
+3. @Container
+4. @DynamicPropertySource --> set the properties dynamically into the springcontext at the time of running the Test
 
-@testcontainers.org -> dependency for get all external instances which are required for test the application like databases mysql,mongodb rabbitmq, kafka as docker imagaes
-
-
-ctrl + shift + T --> automatic create the test class for the class for which we want to write testcase
-
+********************************************************************************************************************************************
+ ===============
+ TestContainers
+ ===============
+@testcontainers.org -> dependency for get all external instances which are required for test the application like databases mysql,mongodb rabbitmq, kafka as docker imagaes0
 
 mockito-junit-jupitor
 
@@ -42,3 +55,12 @@ mockito-junit-jupitor
 alt+ctrl+shift+j -> multicourser in IJ
 
 <artifactId>testcontainers-bom</artifactId> <!-- bom(bill of material) is for don't specify the versions for others like mongodb,kafka..etc containers dont specify the version -->
+
+*********************************************************************************************************************************************
+	XXXXXXXXXXXXXXXXXXXXXXXXXXX
+	X classes used in project X
+	XXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+1. com.fasterxml.jackson.databind.ObjectMapper ---> convert pojo(plan old java object) to json and json to pojo
+	
+	

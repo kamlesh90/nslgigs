@@ -35,7 +35,7 @@ git checkout -b branchName -> creates new branch and switched to branch
 git rm fileName -> removed file from working area as well as stagging area.
 git rm --cached fileName -> removed only from stagging area 
 
-
+git clone <remote repo url> --> clone existing remote repository
 
 20. git remote add origin https://github.com/kamlesh90/nslgigs.git  
 
@@ -48,6 +48,9 @@ git rm --cached fileName -> removed only from stagging area
 26. git branch -D -> to delete branch switch to other branch and then delete suppose you want to delete feature/circle_change then switch to main and then delete feature/circle_change
 27. git branch
 28. git rm --cached <file>... to unstage
+29. git branch --> To see local branches
+30. git branch -r --> To see remote branches
+31.	git branch -a --> To see all local and remote branches
 
 *****************************************************************************************
 		*****************************************************
